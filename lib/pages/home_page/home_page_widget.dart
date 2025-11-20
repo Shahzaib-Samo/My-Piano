@@ -44,7 +44,6 @@ class _HomePageWidgetState extends State<HomePageWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
           top: true,
           child: Column(
@@ -64,7 +63,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 },
                 text: '',
                 options: FFButtonOptions(
-                  width: 500.0,
+                  width: double.infinity,
                   height: 80.0,
                   padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                   iconPadding:
@@ -85,7 +84,6 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         fontStyle:
                             FlutterFlowTheme.of(context).titleSmall.fontStyle,
                       ),
-                  elevation: 0.0,
                   borderRadius: BorderRadius.circular(0.0),
                 ),
               ),
@@ -102,7 +100,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 },
                 text: '',
                 options: FFButtonOptions(
-                  width: 500.0,
+                  width: double.infinity,
                   height: 80.0,
                   padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                   iconPadding:
@@ -140,7 +138,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 },
                 text: '',
                 options: FFButtonOptions(
-                  width: 500.0,
+                  width: double.infinity,
                   height: 80.0,
                   padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                   iconPadding:
@@ -178,7 +176,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 },
                 text: '',
                 options: FFButtonOptions(
-                  width: 500.0,
+                  width: double.infinity,
                   height: 80.0,
                   padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                   iconPadding:
@@ -216,7 +214,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 },
                 text: '',
                 options: FFButtonOptions(
-                  width: 500.0,
+                  width: double.infinity,
                   height: 80.0,
                   padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                   iconPadding:
@@ -254,7 +252,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 },
                 text: '',
                 options: FFButtonOptions(
-                  width: 500.0,
+                  width: double.infinity,
                   height: 80.0,
                   padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                   iconPadding:
@@ -292,7 +290,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 },
                 text: '',
                 options: FFButtonOptions(
-                  width: 500.0,
+                  width: double.infinity,
                   height: 80.0,
                   padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                   iconPadding:
@@ -330,7 +328,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 },
                 text: '',
                 options: FFButtonOptions(
-                  width: 500.0,
+                  width: double.infinity,
                   height: 80.0,
                   padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                   iconPadding:
@@ -368,7 +366,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 },
                 text: '',
                 options: FFButtonOptions(
-                  width: 500.0,
+                  width: double.infinity,
                   height: 80.0,
                   padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                   iconPadding:
@@ -406,7 +404,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 },
                 text: '',
                 options: FFButtonOptions(
-                  width: 500.0,
+                  width: double.infinity,
                   height: 80.0,
                   padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                   iconPadding:
